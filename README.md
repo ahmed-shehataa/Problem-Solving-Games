@@ -31,3 +31,5 @@ A repo for PS using (strings - array - 2-d array - games and more)
 - Tic Tac Toe
 - Crossword
   
+### Resources
+[50 android DS & algo](https://medium.com/javarevisited/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0) 
