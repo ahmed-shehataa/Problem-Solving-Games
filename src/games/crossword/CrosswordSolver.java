@@ -1,4 +1,4 @@
-package crossword;
+package games.crossword;
 
 public class CrosswordSolver {
     public static boolean solveCrossword(char[][] grid, String[] words, int wordIndex) {

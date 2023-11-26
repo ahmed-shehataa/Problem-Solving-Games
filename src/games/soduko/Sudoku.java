@@ -1,4 +1,4 @@
-package soduko;
+package games.soduko;
 
 public class Sudoku {
 

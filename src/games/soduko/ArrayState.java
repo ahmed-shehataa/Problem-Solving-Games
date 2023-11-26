@@ -1,4 +1,4 @@
-package soduko;
+package games.soduko;
 
 public enum ArrayState {
     ONE_MISSING,

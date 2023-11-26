@@ -1,4 +1,4 @@
-package crossword;
+package games.crossword;
 
 public class MainCross {
 

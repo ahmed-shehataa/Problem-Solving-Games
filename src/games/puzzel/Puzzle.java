@@ -1,4 +1,4 @@
-package puzzel;
+package games.puzzel;
 
 public class Puzzle {
 

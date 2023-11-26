@@ -1,4 +1,4 @@
-package maze;
+package games.maze;
 
 public class MazeMain {
 

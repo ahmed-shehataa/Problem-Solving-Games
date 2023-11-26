@@ -1,4 +1,4 @@
-package tic_tac;
+package games.tic_tac;
 
 public class TicTacTeoBoard {
 

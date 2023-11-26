@@ -1,4 +1,4 @@
-package soduko;
+package games.soduko;
 
 import java.util.ArrayList;
 import java.util.List;
