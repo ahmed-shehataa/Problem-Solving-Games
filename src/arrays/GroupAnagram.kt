@@ -9,11 +9,11 @@ fun main() {
 
 }
 
-fun checkAnagramGroup(str: Array<String>) {
+fun checkAnagramGroup(strs: Array<String>): List<MutableList<String>> {
 
     val groupMap = mutableMapOf<String, MutableList<String>>()
 
-    for (word in str) {
+    for (word in strs) {
         val keyOfWord = String(word.toCharArray().sortedArray())
 
         val getPreviousList = groupMap.getOrDefault(keyOfWord, mutableListOf()).apply {
@@ -24,5 +24,5 @@ fun checkAnagramGroup(str: Array<String>) {
     }
 
     println(groupMap.values.toList().toString())
-
+    return groupMap.values.toList()
 }

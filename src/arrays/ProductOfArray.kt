@@ -10,7 +10,8 @@ fun main() {
     getProductOf(array2)
 }
 
-fun getProductOf(array: Array<Int>) {
+fun getProductOf(array: Array<Int>): IntArray {
+
     val result = IntArray(array.size)
 
     outer@ for (i in array.indices) {
@@ -23,8 +24,8 @@ fun getProductOf(array: Array<Int>) {
         // set the resSum
         result[i] = resSum
     }
-
     println("Input: " + array.toList().toString())
     println("Output: " + result.toList().toString())
 
+    return result
 }

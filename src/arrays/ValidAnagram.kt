@@ -14,10 +14,9 @@ fun main() {
 
 }
 
-fun checkAnagram(str: String, str1: String) {
+fun checkAnagram(str: String, str1: String): Boolean {
     if (str.length != str1.length) {
-        println("False")
-        return
+        return false
     }
 
     val first: CharArray = str.toCharArray().apply {
@@ -29,12 +28,10 @@ fun checkAnagram(str: String, str1: String) {
 
     var isValid = true
     for (i in first.indices) {
-        if (first.get(i) != second.get(i)) {
+        if (first[i] != second[i]) {
             isValid = false
             break
         }
     }
-
-    println(isValid)
-
+    return isValid
 }
